@@ -139,25 +139,25 @@ In this section, you will use a loop to iterate through a series of loans and se
 """
 
 loans = [
-    {
+    {   "bank": "Wells Fargo",
         "loan_price": 700,
         "remaining_months": 9,
         "repayment_interval": "monthly",
         "future_value": 1000,
     },
-    {
+    {   "bank": "Bank of America",
         "loan_price": 500,
         "remaining_months": 13,
         "repayment_interval": "bullet",
         "future_value": 1000,
     },
-    {
+    {   "bank": "Julia Bank",
         "loan_price": 200,
         "remaining_months": 16,
         "repayment_interval": "bullet",
         "future_value": 1000,
     },
-    {
+    {   "bank": "Santiago Bank",
         "loan_price": 900,
         "remaining_months": 16,
         "repayment_interval": "bullet",
